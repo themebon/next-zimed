@@ -82,7 +82,7 @@ const Testimonial = () => {
 
                                 <Swiper getSwiper={setSwiper}>
 
-                                    <li className="slide-item">
+                                    <div className="slide-item">
                                         <div className="testimonials__one__single">
                                             <p>This is due to their excellent service, competitive pricing and
                                                 customer support. It’s
@@ -91,8 +91,8 @@ const Testimonial = () => {
                                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <h3>Delila Rayam</h3>
                                         </div>
-                                    </li>
-                                    <li className="slide-item">
+                                    </div>
+                                    <div className="slide-item">
                                         <div className="testimonials__one__single">
                                             <p>This is due to their excellent service, competitive pricing and
                                                 customer support. It’s
@@ -101,8 +101,8 @@ const Testimonial = () => {
                                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <h3>Terrilyn Werme</h3>
                                         </div>
-                                    </li>
-                                    <li className="slide-item">
+                                    </div>
+                                    <div className="slide-item">
                                         <div className="testimonials__one__single">
                                             <p>This is due to their excellent service, competitive pricing and
                                                 customer support. It’s
@@ -111,8 +111,8 @@ const Testimonial = () => {
                                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <h3>Kyle Demayo</h3>
                                         </div>
-                                    </li>
-                                    <li className="slide-item">
+                                    </div>
+                                    <div className="slide-item">
                                         <div className="testimonials__one__single">
                                             <p>This is due to their excellent service, competitive pricing and
                                                 customer support. It’s
@@ -121,8 +121,8 @@ const Testimonial = () => {
                                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <h3>Minta Hadad</h3>
                                         </div>
-                                    </li>
-                                    <li className="slide-item">
+                                    </div>
+                                    <div className="slide-item">
                                         <div className="testimonials__one__single">
                                             <p>This is due to their excellent service, competitive pricing and
                                                 customer support. It’s
@@ -131,8 +131,8 @@ const Testimonial = () => {
                                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <h3>Sherman Cibrian</h3>
                                         </div>
-                                    </li>
-                                    <li className="slide-item">
+                                    </div>
+                                    <div className="slide-item">
                                         <div className="testimonials__one__single">
                                             <p>This is due to their excellent service, competitive pricing and
                                                 customer support. It’s
@@ -141,9 +141,9 @@ const Testimonial = () => {
                                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <h3>Adrianne Hagans</h3>
                                         </div>
-                                    </li>
+                                    </div>
                                 </Swiper>
-                       
+
                             </div>
                             <div className="testimonial_pagination">
                                 <div className="testimonials-slider-pager-one testimonials-slider-pager-two" onClick={goPrev}>
