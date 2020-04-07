@@ -78,7 +78,7 @@ const Testimonial = () => {
                                 <p>Checkout Latest Posts</p>
                                 <h3>What Our Clients Are Saying</h3>
                             </div>
-                            <ul className="slider testimonials-slider">
+                            <div className="slider testimonials-slider">
 
                                 <Swiper getSwiper={setSwiper}>
 
@@ -144,7 +144,7 @@ const Testimonial = () => {
                                     </li>
                                 </Swiper>
                        
-                            </ul>
+                            </div>
                             <div className="testimonial_pagination">
                                 <div className="testimonials-slider-pager-one testimonials-slider-pager-two" onClick={goPrev}>
                                     <i className="zimed-icon-left-arrow"></i>
