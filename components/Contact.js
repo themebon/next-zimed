@@ -56,7 +56,7 @@ const Contact = () => {
                                 <p>Contact Us Now</p>
                                 <h3>Write a Message</h3>
                             </div>
-                            <form action="" className="contact-form-validated contact-one__form">
+                            <form action="#" className="contact-form-validated contact-one__form">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <input type="text" name="name" placeholder="Name"/>
