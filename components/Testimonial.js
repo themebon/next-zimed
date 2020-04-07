@@ -143,18 +143,17 @@ const Testimonial = () => {
                                         </div>
                                     </li>
                                 </Swiper>
-
-
-                                <div className="testimonial_pagination">
-                                    <div className="testimonials-slider-pager-one testimonials-slider-pager-two" onClick={goPrev}>
-                                        <i className="zimed-icon-left-arrow"></i>
-                                    </div>
-                                    <div className="ml-3" onClick={goNext}>
-                                        <i className="zimed-icon-right-arrow"></i>
-                                    </div>
-
-                                </div>
+                       
                             </ul>
+                            <div className="testimonial_pagination">
+                                <div className="testimonials-slider-pager-one testimonials-slider-pager-two" onClick={goPrev}>
+                                    <i className="zimed-icon-left-arrow"></i>
+                                </div>
+                                <div className="ml-3" onClick={goNext}>
+                                    <i className="zimed-icon-right-arrow"></i>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                     </div>
