@@ -8,7 +8,6 @@ export default class Navbar extends React.Component {
           sticky: false
         };
        
-        this.mobileMenu = this.mobileMenu.bind(this);
     }
 
     componentDidMount(){
