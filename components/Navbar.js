@@ -8,26 +8,14 @@ export default class Navbar extends React.Component {
           sticky: false
         };
        
+        this.mobileMenu = this.mobileMenu.bind(this);
     }
 
     componentDidMount(){
         window.addEventListener('scroll', this.handleScroll);
 
-        //Mobile Menu Toggle
-        let mobileNavContainer = document.querySelector(".mobile-nav__container");
-        let mainNavContent = document.querySelector(".main-nav__main-navigation").innerHTML;
-        mobileNavContainer.innerHTML = mainNavContent;
-
-        document.querySelector(".side-menu__toggler").addEventListener("click", function (e) {
-            document.querySelector(".side-menu__block").classList.toggle('active');
-            e.preventDefault();
-        });
-
-        //Close Mobile Menu
-        document.querySelector(".side-menu__close-btn").addEventListener("click", function (e) {
-            document.querySelector(".side-menu__block").classList.remove('active');
-            e.preventDefault();
-        });
+        //Mobile Menu
+        this.mobileMenu();
     }
 
     componentWillUnmount() {
@@ -46,6 +34,24 @@ export default class Navbar extends React.Component {
         });
       }
 
+    }
+
+    mobileMenu = () => {
+        //Mobile Menu Toggle
+        let mobileNavContainer = document.querySelector(".mobile-nav__container");
+        let mainNavContent = document.querySelector(".main-nav__main-navigation").innerHTML;
+        mobileNavContainer.innerHTML = mainNavContent;
+
+        document.querySelector(".side-menu__toggler").addEventListener("click", function (e) {
+            document.querySelector(".side-menu__block").classList.toggle('active');
+            e.preventDefault();
+        });
+
+        //Close Mobile Menu
+        document.querySelector(".side-menu__close-btn").addEventListener("click", function (e) {
+            document.querySelector(".side-menu__block").classList.remove('active');
+            e.preventDefault();
+        });
     }
 
     render(){
