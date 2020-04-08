@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Preloader from "./Preloader";
 
 const Layout = (props) => {
     return(
@@ -21,8 +20,6 @@ const Layout = (props) => {
                 <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
 
             </Head>
-            
-            <Preloader />
         
             <div className="page-wrapper">
 
